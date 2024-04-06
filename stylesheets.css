@@ -1,0 +1,283 @@
+body {
+  font-family: "Jura", sans-serif;
+  z-index: 0;
+}
+
+.body {
+  margin-top: 125px;
+  z-index: -1;
+}
+
+.customercarepage {
+  background-color: #5c585880;
+  margin-top: 100px;
+}
+
+.menu {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  text-decoration: solid;
+}
+
+.menu:hover {
+  color: rgb(30, 168, 157);
+  background-color: rgba(0, 255, 255, 0.041);
+}
+
+.heading {
+  background-color: rgb(175, 173, 173);
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+}
+
+.heading-small {
+  background-color: rgb(175, 173, 173);
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+}
+
+.heading-customercarepage {
+  background-color: #5c585800;
+  margin-top: 0px;
+}
+
+.faq-container {
+  background-color: rgb(255, 255, 255);
+}
+
+#favicon {
+  width: 8vh;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+#BrandName {
+  text-decoration: none;
+  color: black;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 750px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 0px 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+  border-color: #000000;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin: 10px 10;
+  font-size: 20px;
+  color: black;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(248, 245, 245, 0);
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #c0bebe;
+}
+
+.search-bar button img {
+  width: 25px;
+}
+
+.search-bar2 {
+  width: 100%;
+  border: 10;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 0px 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+  border-color: #000000;
+}
+
+.search-bar2 input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: 0;
+  outline-color: #000000;
+  margin: 10px 10;
+  font-size: 20px;
+  color: black;
+}
+
+.search-bar2 button {
+  border: 0;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(248, 245, 245, 0);
+  cursor: pointer;
+}
+
+::placeholder {
+  color: black;
+}
+
+.search-bar2 button img {
+  width: 25px;
+}
+
+.loginimage {
+  width: 40px;
+}
+
+.cart-icon {
+  width: 35px;
+}
+
+#link {
+  text-decoration: none;
+  color: black;
+}
+
+#buttoncart {
+  border-radius: 100%;
+}
+
+#thumbnail_1 {
+  border-radius: 3%;
+}
+
+#thumbnail_2 {
+  border-radius: 3%;
+}
+
+#thumbnail_3 {
+  border-radius: 3%;
+}
+
+#button1 {
+  color: black;
+  background-color: #c0bebe;
+  text-decoration: none;
+}
+
+#newinsseemore {
+  text-decoration: none;
+  color: #000000;
+}
+
+#stars {
+  width: 100%;
+  max-width: 50px;
+}
+
+#feedback_1 {
+  width: 100%;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+footer {
+  background-color: rgb(32, 31, 31);
+  color: white;
+}
+
+#footer-logo {
+  width: 35px;
+}
+
+.footer_shop {
+  list-style-type: none;
+}
+
+.footer-head {
+  padding: 0px;
+}
+
+.shop {
+  margin-top: 30px;
+}
+
+.carousel {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  z-index: -1;
+}
+
+.menu-toggler {
+  color: #000000;
+  text-decoration: none;
+}
+
+.card {
+  background-color: rgb(234, 235, 236);
+}
+
+#sale {
+  text-decoration: line-through;
+}
+
+#footer-menu {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer-menu:hover {
+  cursor: pointer;
+}
+
+.contact-form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(97, 80, 80, 0.623);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #80e9c1;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container-body {
+  max-width: 800px;
+}
